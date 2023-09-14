@@ -1,0 +1,4 @@
+https://sqa.stackexchange.com/questions/50503/error-gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-while-pu
+
+gpgconf --kill gpg-agent   
+gpg --sign --default-key <your-email-id> test.txt (or other file in repo)
